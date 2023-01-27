@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+header,
+#headerBody {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+#links {
+    display: flex;
+    align-items: center;
+}
+
+#links>a {
+    font-size: 35px;
+    margin: 40px;
+    background-color: red;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #f9faf8;
+    padding: 5px 30px;
+}
+
+#bodyCon {
+    margin: 100px 50px 100px 200px;
+    width: 40%;
+}
+
+#bodyCon2>img {
+    margin: 100px 0 100px 50px;
+    width: 80%;
+}
+
+#bodyCon>h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    margin: 0;
+}
+
+.smText {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 0;
+}
+
+#infoHeader {
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.element {
+    border: 5px solid red;
+    margin: 0 35px 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.elConteiner>p {
+    margin: 0 40px;
+    width: 200px;
+    text-align: center;
+}
+
+#quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20%;
+}
+
+q {
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+}
+
+#quote>p {
+    text-align: end;
+    font-size: 20px;
+}
+
+#redBg {
+    margin: 100px 200px;
+    background-color: red;
+    border-radius: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#callAction {
+    color: #f9faf8;
+    font-size: 24px;
+    margin: 0;
+    padding-top: 50px;
+}
+
+#redBg>div>p {
+    padding-bottom: 50px;
+}
+
+button {
+    color: #f9faf8;
+    background-color: red;
+    font-size: 20px;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#button2 {
+    border: 2px solid white;
+}
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer>p {
+    padding: 50px 0 25px;
+}
